@@ -23,7 +23,7 @@ csv_data = pd.read_csv("SyntheaData/csv/providers.csv", index_col = False , deli
 csv_data.head()
 
 try:#give ur username, password
-    conn = msql.connect(host='databasesynthea.c3hnw2e5ik8r.us-east-1.rds.amazonaws.com',database = 'synlaunch', user='*******',password='*******')
+    conn = msql.connect(host='host',database = 'synlaunch', user='*******',password='*******')
     cursor = conn.cursor()
     cursor.execute("select database();")
     record = cursor.fetchone()
@@ -47,7 +47,7 @@ csv_dat2 = csv_dat2.fillna(0)
 #csv_data.head()
 
 try:#give ur username, password
-    conn = msql.connect(host='databasesynthea.c3hnw2e5ik8r.us-east-1.rds.amazonaws.com',database = 'synlaunch',user='*******',password='*******')
+    conn = msql.connect(host='host',database = 'synlaunch',user='*******',password='*******')
     cursor = conn.cursor()
     cursor.execute("select database();")
     record = cursor.fetchone()
@@ -71,7 +71,7 @@ csv_dat3 = csv_dat3.fillna(0)
 #csv_data.head()
 
 try:#give ur username, password
-    conn = msql.connect(host='databasesynthea.c3hnw2e5ik8r.us-east-1.rds.amazonaws.com',database = 'synlaunch', user='*******',password='*******')
+    conn = msql.connect(host='host',database = 'synlaunch', user='*******',password='*******')
     cursor = conn.cursor()
     cursor.execute("select database();")
     record = cursor.fetchone()
@@ -94,7 +94,7 @@ csv_dat4 = csv_dat4.fillna(0)
 #csv_data.head()
 
 try:#give ur username, password
-    conn = msql.connect(host='databasesynthea.c3hnw2e5ik8r.us-east-1.rds.amazonaws.com',database = 'synlaunch', user='*******',password='*******')
+    conn = msql.connect(host='host',database = 'synlaunch', user='*******',password='*******')
     cursor = conn.cursor()
     cursor.execute("select database();")
     record = cursor.fetchone()
@@ -116,7 +116,7 @@ csv_dat6 = csv_dat6.fillna(0)
 #csv_data.head()
 
 try:#give ur username, password
-    conn = msql.connect(host='databasesynthea.c3hnw2e5ik8r.us-east-1.rds.amazonaws.com',database = 'synlaunch', user='*******',password='*******')
+    conn = msql.connect(host='host',database = 'synlaunch', user='*******',password='*******')
     cursor = conn.cursor()
     cursor.execute("select database();")
     record = cursor.fetchone()
@@ -139,7 +139,7 @@ csv_dat7 = csv_dat7.fillna(0)
 #csv_data.head()
 
 try:#give ur username, password
-    conn = msql.connect(host='databasesynthea.c3hnw2e5ik8r.us-east-1.rds.amazonaws.com',database = 'synlaunch', user='*******',password='*******')
+    conn = msql.connect(host='host',database = 'synlaunch', user='*******',password='*******')
     cursor = conn.cursor()
     cursor.execute("select database();")
     record = cursor.fetchone()
