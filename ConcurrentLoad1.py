@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-
+ 
 import mysql.connector as msql
 from mysql.connector import Error
 import pandas as pd
@@ -19,7 +19,7 @@ csv_dat1 = csv_dat1.fillna(0)
 
 
 try:#give ur username, password
-    conn = msql.connect(host='databasesynthea.c3hnw2e5ik8r.us-east-1.rds.amazonaws.com',database = 'synlaunch', user='User',password='Password')
+    conn = msql.connect(host='host',database = 'synlaunch', user='User',password='Password')
     cursor = conn.cursor()
     cursor.execute("select database();")
     record = cursor.fetchone()
